@@ -1,0 +1,28 @@
+AT
+
+AT+GMR
+
+AT+CIOBAUD?
+
+AT+CWMODE?
+
+AT+CWMODE_DEF=3
+
+AT+CWLAP              available networks
+
+AT+CWJAP="name","password"
+
+AT+CIPMUX=1
+
+AT+CIPSERVER=1,80
+
+AT+CIFSR    to get ip
+
+AT+CIPSEND=0,10    channel_num , number of characters
+
+AT+CIPCLOSE=0      to close channel
+
+AT+CIPSERVER=0     to close server
+
+AT+RST             to restart
+
